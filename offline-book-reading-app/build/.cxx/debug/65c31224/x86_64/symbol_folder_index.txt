@@ -1,0 +1,1 @@
+/Users/opm3/Documents/Odeveloper/projects/B/book_reader_app/build/app/intermediates/cxx/debug/65c31224/obj/x86_64

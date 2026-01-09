@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "721334675690",
+    "project_id": "gymifit-6c753",
+    "storage_bucket": "gymifit-6c753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721334675690:android:0e51e6aa86ec7873a4cf93",
+        "android_client_info": {
+          "package_name": "com.thatsend.grace_fitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721334675690-05to77s4gi1jtj2c3j1dn6eat27a2tsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.grace_fitness",
+            "certificate_hash": "fbb24268cb90557bff8962710bbac8d0f8ecaee3"
+          }
+        },
+        {
+          "client_id": "721334675690-09308o8vipnsvm281b3d37ai2tsti3tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.grace_fitness",
+            "certificate_hash": "efb91b315ec7b95ff6de5d972399d9d9ec6036a8"
+          }
+        },
+        {
+          "client_id": "721334675690-l4grv1mtuks9j5dpgvdlcp999jeng42e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.grace_fitness",
+            "certificate_hash": "1d4fa6a34071ad9c5b3df825e8ded16a81cae9eb"
+          }
+        },
+        {
+          "client_id": "721334675690-aou7s30s344htvl4ancq2tcreet88ssd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu-pv-138bVcecArKTEKWl0CIov6lrNDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721334675690-2c9ja6n7qroog30s3kupbhngd8p44021.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721334675690-44dtrfglccb1lis0jfg982sc0rotg6gc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thatsend.gymifitadmin"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7593009526670874~5478101502"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721334675690:android:3ef9460aaab4a9e2a4cf93",
+        "android_client_info": {
+          "package_name": "com.thatsend.gymifitadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721334675690-aou7s30s344htvl4ancq2tcreet88ssd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu-pv-138bVcecArKTEKWl0CIov6lrNDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721334675690-2c9ja6n7qroog30s3kupbhngd8p44021.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "721334675690-44dtrfglccb1lis0jfg982sc0rotg6gc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thatsend.gymifitadmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

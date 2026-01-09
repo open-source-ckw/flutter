@@ -1,0 +1,5 @@
+const String deleteLinkToUserQuery = """
+mutation DeleteLinks(\$id : ID!){
+  delete_link(input: {link_id: \$id})
+}
+""";

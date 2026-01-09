@@ -1,0 +1,1 @@
+/Users/opm3/Documents/Odeveloper/projects/T/chat_gtp/android/app/src/main/kotlin/com/thatsend/chat_gtp/MainActivity.kt

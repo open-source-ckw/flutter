@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "519879800412",
+    "project_id": "chatgpt-7b3c4",
+    "storage_bucket": "chatgpt-7b3c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519879800412:android:05fe66dd8a62f6bdef1899",
+        "android_client_info": {
+          "package_name": "com.thatsend.chat_gtp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519879800412-6r3l8mlmom4r2s681pjk965fiqk1mtdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.chat_gtp",
+            "certificate_hash": "9afa00deb96064139311b02248318a18618d2a94"
+          }
+        },
+        {
+          "client_id": "519879800412-nu45aagqbgte4rvinuqvrqf80oscacf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByApVefX0I4JsVfP_QmZjMTInGqrC8ofY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519879800412-nu45aagqbgte4rvinuqvrqf80oscacf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

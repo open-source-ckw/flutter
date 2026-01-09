@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "574408922411",
+    "firebase_url": "https://stacks-259313.firebaseio.com",
+    "project_id": "stacks-259313",
+    "storage_bucket": "stacks-259313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574408922411:android:f68f899d6d843f9746216e",
+        "android_client_info": {
+          "package_name": "com.stacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574408922411-av3g5innqni94bjnhfl2a5ig41r3m3tu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stacks",
+            "certificate_hash": "33f44545556ddece55b3510144729068b3698d77"
+          }
+        },
+        {
+          "client_id": "574408922411-m4v8lbpkfn5rn1lhj1slbqbcrem5scva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stacks",
+            "certificate_hash": "de3c97e5490fd84b7a6cbf29f64167d04e7dd5ae"
+          }
+        },
+        {
+          "client_id": "574408922411-81lsl17r4edh2k1il3tlkuubio18r6hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPIHtnRJICarcxEe7L6293wbyFemioqI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574408922411-6mibbilqs6qtoecohumklv5h4s50bncp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "574408922411-lfgvgjp755q7t7karji35eh6hbfqqrm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.stacks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+/Users/opm3/Documents/Odeveloper/projects/G/card-game/build/.cxx/Debug/3j161ha2/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/opm3/Documents/Odeveloper/projects/G/card-game/build/.cxx/Debug/3j161ha2/arm64-v8a/CMakeFiles/rebuild_cache.dir

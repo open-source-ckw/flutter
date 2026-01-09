@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/opm3/fvm/versions/3.32.1/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/opm3/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/opm3/Documents/Odeveloper/projects/G/card-game/build/.cxx/Debug/3j161ha2/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/opm3/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/opm3/Documents/Odeveloper/projects/G/card-game/build/.cxx/Debug/3j161ha2/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

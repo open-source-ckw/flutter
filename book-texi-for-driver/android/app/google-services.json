@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "848653197791",
+    "firebase_url": "https://driverapp-b9e74-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "driverapp-b9e74",
+    "storage_bucket": "driverapp-b9e74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848653197791:android:01b7bfb336a6369d87646a",
+        "android_client_info": {
+          "package_name": "com.thatsend.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848653197791-346jmk7aqeuvsq238tr5jbjk0bi7c3ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.customer",
+            "certificate_hash": "fbb24268cb90557bff8962710bbac8d0f8ecaee3"
+          }
+        },
+        {
+          "client_id": "848653197791-hm7co1ukfl4g2kd70lbr19a42clsoit6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.customer",
+            "certificate_hash": "002bde64efad93f070fe09763998710c890e2589"
+          }
+        },
+        {
+          "client_id": "848653197791-srgsh8r6789l0q0k3svassmilob01935.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.customer",
+            "certificate_hash": "46ce0c547462d6efec0814fbde41cdd8816e1254"
+          }
+        },
+        {
+          "client_id": "848653197791-e817h89jpm8d3c554rpt61a9nab21u58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNGtnzZ9y2HhPk48KK2nk5LTfj3xKWHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848653197791-e817h89jpm8d3c554rpt61a9nab21u58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848653197791-jdtiq399v95bha9svbtlok71thm188kj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thatsend.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848653197791:android:14d89a37dd4f909f87646a",
+        "android_client_info": {
+          "package_name": "com.thatsend.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848653197791-1s0kk3q9mcoqirnvvjvg3i9m8hh5qhqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.driver",
+            "certificate_hash": "eac9625b82b2c8361d9e458bf7ea60a50f4d7dfa"
+          }
+        },
+        {
+          "client_id": "848653197791-elrpnttgjvp2j2n54dtn1lj1fcjukkeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.driver",
+            "certificate_hash": "fbb24268cb90557bff8962710bbac8d0f8ecaee3"
+          }
+        },
+        {
+          "client_id": "848653197791-fkq8eh16ipc9sn3qsdh3lhidi2phfe5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thatsend.driver",
+            "certificate_hash": "46ce0c547462d6efec0814fbde41cdd8816e1254"
+          }
+        },
+        {
+          "client_id": "848653197791-e817h89jpm8d3c554rpt61a9nab21u58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyNGtnzZ9y2HhPk48KK2nk5LTfj3xKWHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848653197791-e817h89jpm8d3c554rpt61a9nab21u58.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848653197791-jdtiq399v95bha9svbtlok71thm188kj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thatsend.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

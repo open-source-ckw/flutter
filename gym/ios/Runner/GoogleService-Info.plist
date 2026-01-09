@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>15147748415-idb774ibnkb2n341s0n9vu7bh2agc4id.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.15147748415-idb774ibnkb2n341s0n9vu7bh2agc4id</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>15147748415-0d7rr3nv9kas1lmh55ct6j9497d8dnim.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCj_Ks_UccY8T6bJKYyds67l4YgCpg_Es</string>
+	<key>GCM_SENDER_ID</key>
+	<string>15147748415</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thatsend.graceFitness</string>
+	<key>PROJECT_ID</key>
+	<string>thatsendfitness</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thatsendfitness.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:15147748415:ios:ed8c2fc89608539e2c7c8a</string>
+	<key>DATABASE_URL</key>
+	<string>https://thatsendfitness-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

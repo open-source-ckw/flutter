@@ -1,0 +1,150 @@
+import 'package:driver/constant/show_toast_dialog.dart';
+import 'package:driver/ui/auth_screen/login_screen.dart';
+import 'package:driver/ui/bank_details/bank_details_screen.dart';
+import 'package:driver/ui/chat_screen/inbox_screen.dart';
+import 'package:driver/ui/freight/freight_screen.dart';
+import 'package:driver/ui/home_screens/home_screen.dart';
+import 'package:driver/ui/intercity_screen/home_intercity_screen.dart';
+import 'package:driver/ui/online_registration/online_registartion_screen.dart';
+import 'package:driver/ui/profile_screen/profile_screen.dart';
+import 'package:driver/ui/settings_screen/setting_screen.dart';
+import 'package:driver/ui/vehicle_information/vehicle_information_screen.dart';
+import 'package:driver/ui/wallet/wallet_screen.dart';
+import 'package:driver/utils/utils.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:get/get.dart';
+
+import '../utils/Preferences.dart';
+
+class DashBoardController extends GetxController {
+  final drawerItems = [
+    DrawerItem('City'.tr, "assets/icons/ic_city.png"),
+    // DrawerItem('Rides'.tr, "assets/icons/ic_order.svg"),
+    DrawerItem('OutStation'.tr, "assets/icons/ic_intercity.png"),
+    // DrawerItem('OutStation Rides'.tr, "assets/icons/ic_order.svg"),
+    DrawerItem('Freight'.tr, "assets/icons/ic_freight.png"),
+    DrawerItem('My Wallet'.tr, "assets/icons/ic_wallet.png"),
+    DrawerItem('Bank Details'.tr, "assets/icons/ic_profile.png"),
+    DrawerItem('Inbox'.tr, "assets/icons/ic_inbox.png"),
+    DrawerItem('Profile'.tr, "assets/icons/ic_profile.png"),
+    DrawerItem('Online Registration'.tr, "assets/icons/ic_document.png"),
+    DrawerItem('Vehicle Information'.tr, "assets/icons/ic_city.png"),
+    DrawerItem('Settings'.tr, "assets/icons/ic_settings.png"),
+    DrawerItem('Log out'.tr, "assets/icons/ic_logout.png"),
+  ];
+
+  /*final drawerItems = [
+    DrawerItem('City'.tr, "assets/icons/ic_city.svg"),
+    // DrawerItem('Rides'.tr, "assets/icons/ic_order.svg"),
+    DrawerItem('OutStation'.tr, "assets/icons/ic_intercity.svg"),
+    // DrawerItem('OutStation Rides'.tr, "assets/icons/ic_order.svg"),
+    DrawerItem('Freight'.tr, "assets/icons/ic_freight.svg"),
+    DrawerItem('My Wallet'.tr, "assets/icons/ic_wallet.svg"),
+    DrawerItem('Bank Details'.tr, "assets/icons/ic_profile.svg"),
+    DrawerItem('Inbox'.tr, "assets/icons/ic_inbox.svg"),
+    DrawerItem('Profile'.tr, "assets/icons/ic_profile.svg"),
+    DrawerItem('Online Registration'.tr, "assets/icons/ic_document.svg"),
+    DrawerItem('Vehicle Information'.tr, "assets/icons/ic_city.svg"),
+    DrawerItem('Settings'.tr, "assets/icons/ic_settings.svg"),
+    DrawerItem('Log out'.tr, "assets/icons/ic_logout.svg"),
+  ];*/
+
+  getDrawerItemWidget(int pos) {
+    switch (pos) {
+      case 0:
+        return const HomeScreen();
+      // case 1:
+      //   return const OrderScreen();
+      case 1:
+        return const HomeIntercityScreen();
+      // case 2:
+      //   return const OrderIntercityScreen();
+      case 2:
+        return const FreightScreen();
+      case 3:
+        return const WalletScreen();
+      case 4:
+        return const BankDetailsScreen();
+      case 5:
+        return const InboxScreen();
+      case 6:
+        return const ProfileScreen();
+      case 7:
+        return const OnlineRegistrationScreen();
+      case 8:
+        return const VehicleInformationScreen();
+      case 9:
+        return const SettingScreen();
+      default:
+        return const Text("Error");
+    }
+  }
+
+  RxInt selectedDrawerIndex = 0.obs;
+
+  onSelectItem(int index) async {
+    if (index == 10) {
+      await FirebaseAuth.instance.signOut();
+      Get.offAll(const LoginScreen());
+    } else {
+      selectedDrawerIndex.value = index;
+    }
+    Get.back();
+  }
+
+  @override
+  void onInit() {
+    // TODO: implement onInit
+    if (Preferences.getBoolean(Preferences.backgroundLocationAccess) == true) {
+      getLocation();
+    } else {
+      new Future.delayed(Duration.zero, () {
+        Get.defaultDialog(
+          barrierDismissible: false,
+          title: "Background Location Access",
+          middleText:
+              "WayFinder - Driver collects location data to enable tracking your trips to work and calculating distance traveled even when the app is closed or not in use.",
+          backgroundColor: Colors.black,
+          titleStyle: TextStyle(color: Colors.white),
+          middleTextStyle: TextStyle(color: Colors.white),
+          textConfirm: "Continue".tr,
+          confirmTextColor: Colors.black,
+          buttonColor: Colors.grey.shade200,
+          onConfirm: () {
+            getLocation();
+            Preferences.setBoolean(Preferences.backgroundLocationAccess, true);
+            Get.back();
+          },
+        );
+      });
+    }
+    super.onInit();
+  }
+
+  getLocation() async {
+    await Utils.determinePosition();
+  }
+
+  Rx<DateTime> currentBackPressTime = DateTime.now().obs;
+
+  Future<bool> onWillPop() {
+    DateTime now = DateTime.now();
+    if (now.difference(currentBackPressTime.value) >
+        const Duration(seconds: 2)) {
+      currentBackPressTime.value = now;
+      ShowToastDialog.showToast("Double press to exit",
+          position: EasyLoadingToastPosition.center);
+      return Future.value(false);
+    }
+    return Future.value(true);
+  }
+}
+
+class DrawerItem {
+  String title;
+  String icon;
+
+  DrawerItem(this.title, this.icon);
+}

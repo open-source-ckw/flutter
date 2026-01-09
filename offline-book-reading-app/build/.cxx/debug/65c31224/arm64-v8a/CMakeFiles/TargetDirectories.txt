@@ -1,0 +1,2 @@
+/Users/opm3/Documents/Odeveloper/projects/B/book_reader_app/build/.cxx/debug/65c31224/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/opm3/Documents/Odeveloper/projects/B/book_reader_app/build/.cxx/debug/65c31224/arm64-v8a/CMakeFiles/rebuild_cache.dir

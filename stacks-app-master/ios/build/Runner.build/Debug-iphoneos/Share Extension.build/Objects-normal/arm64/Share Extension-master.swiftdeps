@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "980ef06699317ddd7e94b6eca7fa10b44adde1fd103d0012569e31b7d09df7bb"
+build_start_time: [1635751944, 133080005]
+build_end_time: [1635751946, 104290962]
+inputs:
+  "/Users/opm3oequal/Documents/ODeveloperHD/project/flutter/S/stacks-app-master/ios/Share Extension/ShareViewController.swift": [1626103966, 0]
