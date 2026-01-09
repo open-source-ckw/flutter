@@ -1,9 +1,5 @@
 # Tech stacks
-- Flutter
-- Gemini API
-- Firebase core
-- Firebase Cloud Firestore
-- Firebase Cloud Function
+- Flutter and related
 
 
 ---
