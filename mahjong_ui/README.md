@@ -1,8 +1,4 @@
-# 🚀 Tech Stack
 Design is developed as a normal layout in canva (in this app layout was ready to go fro another app so skipped this work) and directly create similar layout in flutter widgets and theming options. Typography is also supported by flutter layout development.
-
-# 📱 Core Framework
-Flutter – Cross-platform mobile app framework for fast and responsive UI
 
 # 🎨 UI & UX Components
 Cupertino Icons – iOS-style icons
