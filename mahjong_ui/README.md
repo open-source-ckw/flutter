@@ -1,9 +1,8 @@
 # 🚀 Tech Stack
+Design is developed as a normal layout in canva (in this app layout was ready to go fro another app so skipped this work) and directly create similar layout in flutter widgets and theming options. Typography is also supported by flutter layout development.
+
 # 📱 Core Framework
 Flutter – Cross-platform mobile app framework for fast and responsive UI
-
-# 🎮 Game Engine
-Flame – Lightweight 2D game engine for Flutter, enabling smooth animations, game loop, and rendering
 
 # 🎨 UI & UX Components
 Cupertino Icons – iOS-style icons
@@ -16,15 +15,6 @@ Liquid Swipe – Swipe-based onboarding and page transitions
 # 🧠 State Management
 Provider – Reactive state management for UI updates
 Get (GetX) – State management, navigation, and dependency injection
-
-# 📸 Media & Files
-Image Picker – Select images from gallery or camera (if needed for avatars or game content)
-Video Player – Optional video tutorials or animations
-
-# 🔔 Notifications & Utilities
-Flutter Local Notifications – Local alerts and reminders
-Clipboard – Copy/paste functionality
-URL Launcher – Open external links
 
 # 📝 Description
 This app is a UI-focused implementation of American Real Mahjong, designed to provide:
